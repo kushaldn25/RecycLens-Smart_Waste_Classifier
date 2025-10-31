@@ -135,7 +135,7 @@ recyclens/
     ├── artifacts.ipynb      #  library installation 
     ├── version1.ipynb       #  without argumentation 
     └── version2.ipynb       #  with argumentation  
-
+```
 ---
 
 ## 🌱 Societal & Environmental Impact
