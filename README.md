@@ -1,2 +1,2 @@
-# Recyclens
-♻️ RecycLens ♻️-  Smart Waste Classifier
+# ♻️ RecycLens ♻️-  Smart Waste Classifier
+
