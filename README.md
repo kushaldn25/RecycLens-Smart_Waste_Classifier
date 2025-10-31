@@ -118,15 +118,23 @@ streamlit run app.py
 
 ```
 recyclens/
-│
-├── app.py                   # Streamlit frontend app
 ├── model/
-│   └── recyclens_model.h5   # Trained CNN model
-├── dataset/                 # Training images (TrashNet)
-├── requirements.txt         # Python dependencies
+|   ├── app.py               # Streamlit frontend app
+|   ├── waste_cnn_v2.pth     # Trained CNN model
+|   └── requirements.txt     # Python dependencies
+|
+├── data/                    
+|   ├── all images           #  images (TrashNet)
+|   ├── train                #  train set (TrashNet)
+|   └── test                 #  test set  (TrashNet)
+|
 ├── README.md                # Project documentation
-└── utils/                   # Helper functions (if any)
-```
+├── Recyclens-guide.pptx     # Project documentation in pptx format
+|
+└── notebook/                # jupyter-notebook files
+    ├── artifacts.ipynb      #  library installation 
+    ├── version1.ipynb       #  without argumentation 
+    └── version2.ipynb       #  with argumentation  
 
 ---
 
@@ -150,9 +158,7 @@ recyclens/
 
 ## 🧑‍💻 Contributors
 
-**Kushal Debnath**  
-🎓 *Summer Research Fellow — University of Hyderabad*  
-🧠 *AI & MLOps Enthusiast | CNN | YOLO | Docker | Grafana | Prometheus*
+**Kushal Debnath**
 
 ---
 
@@ -162,7 +168,3 @@ recyclens/
 By combining **computer vision** and **sustainability**, this project takes a step toward a cleaner, smarter, and greener planet. 🌎
 
 ---
-
-## ⭐ Show Your Support
-
-If you find this project useful or inspiring, give it a ⭐ on GitHub and help spread awareness about **AI for Sustainability** 🌱
