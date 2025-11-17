@@ -1,4 +1,4 @@
-# ♻️ RecycleNS — Smart Waste Classification using CNNs
+# ♻️ Recyclens — Smart Waste Classification using CNNs
 
 ### 🧠 A Deep Learning Approach for Environmental Protection and Recycling Automation
 
